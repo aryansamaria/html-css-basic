@@ -1,0 +1,75 @@
+body{
+    font-family: 'comic sans ms',sans-serif;
+    background-image: url(./../assets/reso/Pirate\'s\ Bay.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Old English text mt',sans-serif;
+    text-shadow: 0 0 5px red;
+    
+}
+fieldset{
+    background: rgba(0,0,0,0.5); 
+    color: white;
+    padding: 12px;
+    margin: 15px;
+}
+table{
+    width: 100%;
+}
+legend{
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Old English text mt',sans-serif;
+    border-radius: 10%;
+    color: white;
+    background-image: url(./../assets/reso/view-spectacular-nature-landscape.jpg);
+}
+[type="text"]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+[type="text"]:hover, textarea:hover{
+    background:rgba(249, 120, 120, 0.3);
+}
+textarea{
+    padding: 10px;
+}
+[type="number"]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+[type="number"]:hover, textarea:hover{
+    background:rgba(249, 120, 120, 0.3);
+}
+[type="date"]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+[type="time"]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+[type="submit"]{
+    padding: 10px;
+}
+[type="reset"]{
+    padding: 10px;
+}
+[type="submit"]:hover,[type="reset"]:hover{
+    box-shadow:0 0 8px white ;
+}
+
+
+

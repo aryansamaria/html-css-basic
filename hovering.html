@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            width: 450px;
+            height: 520px;
+            margin: auto;
+            margin-top: 40px;
+            background-color: black;
+            box-shadow: 0 0 15px black;
+            overflow: hidden;
+            position: relative;
+        }
+        div>img{
+            width: inherit;
+            height: inherit;
+            transition: all 4s linear 0s;
+            filter: grayscale(100%);
+
+        }
+        div:hover>img{
+            scale: 110%;
+            filter: grayscale(0%);
+        }
+        div>#curain{
+            top: 0px;
+            background-color: antiquewhite;
+            left: 0px;
+            margin: 0px;
+            position: absolute;
+            transition: all 1s linear 1s;
+        }
+        div>#curain>img{
+            filter: grayscale(0%);
+        }
+        div:hover>#curain{
+            transform: translateY(-100%);
+        }
+        div>#left-cur{
+            background-color: aquamarine;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin:0px;
+            width: 50%;
+            transition: all 1s linear 0s;
+            transform-origin:left ;
+
+        }
+        div:hover>#left-cur{
+            transform: perspective(200px) rotateY(90deg);
+        }
+        div>#right-cur{
+            background-color: rgb(25, 91, 69);
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            margin:0px;
+            width: 50%;
+            transition: all 1s linear 0s;
+            transform-origin:right ;
+
+        }
+        div:hover>#right-cur{
+            transform: perspective(200px) rotateY(-90deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+         <img src="./../assets/reso/Pirate's Bay.jpeg" alt="">
+         <div id="curain"></div>
+         <div id="left-cur"></div>
+         <div id="right-cur"></div>
+
+     </div>              
+</body>
+</html>

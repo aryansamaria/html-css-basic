@@ -1,0 +1,42 @@
+body{
+    font-family: monospace;
+    background: url(./../assets/reso/view-spectacular-nature-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-box{
+    border: none;
+    width: 420px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 0px 60px 0 60px;
+    background:linear-gradient(rgb(151, 153, 165),rgb(59,70,76))
+}
+
+#tex{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+[type="text"]{
+    border: none;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+[type="password"]{
+    border: none;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+[type="submit"]{
+    font-size: 25px;
+    margin-bottom: 20px;    
+}
+[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(92, 83, 78);
+}

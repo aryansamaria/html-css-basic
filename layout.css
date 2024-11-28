@@ -1,0 +1,68 @@
+*{
+     margin: 0px;  
+}
+body{
+    font-family: 'comic sans ms',sans-serif;
+}
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+    
+}
+header>h2::first-letter{
+    color: grey;
+    font-size: 45px;
+}
+nav{
+    background-color: rgb(157, 157, 157);
+    color: rgb(76, 76, 76);
+    width: 100%;
+    text-align: center;
+}
+nav>a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px;
+}
+nav>a:hover{
+    color: white;
+}
+aside{
+    width: 170px;
+    height: 450px;
+    background-color: black;
+    color: grey;
+    float: left;
+}
+aside>a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 25px;
+}
+aside>a:hover{
+    color: white;
+    box-shadow: 0 0 8px white;
+}
+section{
+    margin-left: 170px;
+    padding: 25px;
+    font-size: 20px;
+}
+section>a{
+    background-color: cadetblue;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 15%;
+}
